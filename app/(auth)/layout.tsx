@@ -11,7 +11,7 @@ export default function AuthLayout({children}: {children: React.ReactNode}) {
                 src="/logo.svg"
                 alt="Logo"
             />
-            <h1 className="text-xl font-bold">Horse´s Rental Cars</h1>
+            <h1 className="text-xl font-bold">Horse&apos;s Rental Cars</h1>
         </div>
 
     </div>
