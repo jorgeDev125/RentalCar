@@ -14,7 +14,7 @@ model Car {
   userId       String
   name         String @db.Text
   cv           String @db.Text
-  trasnmission String @db.Text
+  transmission String @db.Text
   people       String @db.Text
   photo        String @db.Text
   priceDay     String @db.Text
