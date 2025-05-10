@@ -1,11 +1,13 @@
 import {
     Sheet,
     SheetContent,
+    SheetTitle,
     SheetTrigger,
 } from "@/components/ui/sheet"
 import { Menu } from "lucide-react"
 import { SidebarRoutes } from "../SidebarRoutes"
 import { UserButton } from "@clerk/nextjs"
+import { LogoDashboard } from "../LogoDashboard"
 
 export function NavbarDashboard() {
     return (
@@ -16,6 +18,7 @@ export function NavbarDashboard() {
                         <Menu />
                     </SheetTrigger>
                     <SheetContent side="left">
+                        <SheetTitle><LogoDashboard /></SheetTitle>
                         <SidebarRoutes />
                     </SheetContent>
                 </Sheet>
