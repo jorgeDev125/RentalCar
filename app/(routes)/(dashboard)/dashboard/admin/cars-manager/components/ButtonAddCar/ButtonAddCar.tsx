@@ -28,9 +28,8 @@ export function ButtonAddCar() {
             <DialogContent>
                 <DialogHeader>
                     <DialogTitle>Form to add a new car</DialogTitle>
-                    <DialogDescription>
-                        <FormAddCar /* setOpenDialog={setOpenDialog} */ />
-                    </DialogDescription>
+                    <DialogDescription />
+                    <FormAddCar setOpenDialog={setOpenDialog} />
                 </DialogHeader>
             </DialogContent>
         </Dialog>
