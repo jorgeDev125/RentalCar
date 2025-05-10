@@ -18,7 +18,7 @@ import { FormAddCar } from "../FormAddCard"
 export function ButtonAddCar() {
     const [openDialog, setOpenDialog] = useState(false)
     return (
-        <Dialog open={openDialog}>
+        <Dialog onOpenChange={setOpenDialog} open={openDialog}>
             <DialogTrigger asChild>
                 <Button variant="outline" onClick={()=>setOpenDialog(true)}>
                     Add new car
